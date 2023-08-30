@@ -1,0 +1,33 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+body {
+  background-color: rgb(135, 216, 243);
+}
+
+article {
+  background-color: lightgreen;
+  padding: 10px;
+  margin: 10px;
+}
+
+footer {
+  background-color: yellow;
+}
+
+a {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 20px;
+}
